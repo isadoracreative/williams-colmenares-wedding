@@ -1,0 +1,78 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.cursive {
+  text-transform: none;
+  font-family: 'Sacramento', sans-serif;
+}
+.skinny {
+  font-family: 'Quicksand', sans-serif;
+}
+.light-navy {
+  color: #1D738A;
+}
+.teal {
+  color: #50B4BD;
+}
+.sienna {
+  color: #EE6951;
+}
+.light-sienna {
+  color: #FF8C77;
+}
+.navbar {
+  font-size: .8rem;
+  font-weight: 400;
+}
+#header-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 255, 255, 0.45)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/merida-hillside.jpg");
+  background-position: 50% 35%;
+  background-size: cover;
+  height: 300px;
+}
+h1 {
+  text-transform: uppercase;
+}
+.fa-heart {
+  font-size: 1.2rem;
+}
+p.date {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+}
+p.location {
+  font-weight: 700;  
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+.fa-bicycle {
+  font-size: 3rem;
+}
+#footer-nav {
+  font-size: .9rem;
+/*   font-weight: 400; */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #header-home {
+    height: 400px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #header-home {
+    height: 550px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
