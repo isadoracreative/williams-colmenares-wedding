@@ -15,6 +15,10 @@ body {
 .teal {
   color: #50B4BD;
 }
+a.teal:hover {
+  color: #EE6951;
+  text-decoration: none;
+}
 .sienna {
   color: #EE6951;
 }
@@ -51,7 +55,9 @@ p.location {
 }
 #footer-nav {
   font-size: .9rem;
-/*   font-weight: 400; */
+}
+#copyright {
+  font-size: .9rem;
 }
 
 /* Small devices (landscape phones, 576px and up) */
