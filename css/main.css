@@ -19,7 +19,7 @@ body {
 .teal {
   color: #50B4BD;
 }
-a.teal:hover {
+a:hover {
   color: #EE6951;
   text-decoration: none;
 }
