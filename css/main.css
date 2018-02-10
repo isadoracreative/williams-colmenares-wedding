@@ -69,6 +69,13 @@ p.location {
   text-transform: uppercase;
   letter-spacing: .1rem;
 }
+ul {
+  list-style: none;
+}
+ul.bullet-link-list li::before {
+  content: "•\00a0";
+  color: #50B4BD;
+}
 .fa-bicycle {
   font-size: 3rem;
 }
