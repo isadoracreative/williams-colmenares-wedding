@@ -43,6 +43,14 @@ a:hover {
   background-position: 50% 35%;
 }
 #header-schedule {
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 255, 255, 0.15)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/ny-wedding-day.jpg");
+  background-position: 50% 20%;
+}
+#header-registry {
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 255, 255, 0.05)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/pio-isa-in-a-box.jpg");
+  background-position: 50% 60%;
+}
+#header-activities {
   background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 255, 255, 0.35)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/everglades.jpg");
   background-position: 50% 60%;
 }
