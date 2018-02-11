@@ -61,12 +61,15 @@ h1 {
   font-size: 2.8rem;
   line-height: 0;
 }
-.fa-heart {
-  font-size: 1.2rem;
-}
 .icons {
   font-size: 2rem;
   font-weight: 400;
+}
+.fa-heart {
+  font-size: 1.2rem;
+}
+.fa-bicycle {
+  font-size: 3rem;
 }
 p.date {
   font-size: 2.4rem;
@@ -84,8 +87,8 @@ ul.bullet-link-list li::before {
   content: "•\00a0";
   color: #50B4BD;
 }
-.fa-bicycle {
-  font-size: 3rem;
+#registry-outro {
+  margin-top: -200px;
 }
 #footer-nav {
   font-size: .9rem;
