@@ -1,3 +1,7 @@
+/* Styles for WilliamsColmenaresWedding.info */
+/* Website visual design and front-end development by Isadora Williams, copyright 2018 */
+/* isadoracreative.com */
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -43,15 +47,15 @@ a:hover {
   background-position: 50% 35%;
 }
 #header-schedule {
-  background-image: radial-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 255, 255, 0.15)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/ny-wedding-day.jpg");
-  background-position: 50% 20%;
+  background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/ny-wedding-day.jpg");
+  background-position: 50% 30%;
 }
 #header-registry {
-  background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 255, 255, 0.05)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/pio-isa-in-a-box.jpg");
+  background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/pio-isa-in-a-box.jpg");
   background-position: 50% 60%;
 }
 #header-activities {
-  background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 255, 255, 0.35)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/everglades.jpg");
+  background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/everglades.jpg");
   background-position: 50% 60%;
 }
 #header-photos {
@@ -59,7 +63,7 @@ a:hover {
   background-position: 30% 45%;
 }
 #header-rsvp {
-  background-image: radial-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 255, 255, 0.05)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/harbor-room-tent.jpg");
+  background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/harbor-room-tent.jpg");
   background-position: 50% 60%;
 }
 h1 {
