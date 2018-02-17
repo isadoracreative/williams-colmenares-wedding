@@ -8,3 +8,6 @@ function initMap() {
           zoom: 12,
           center: harborRoom
         });
+      }
+
+
