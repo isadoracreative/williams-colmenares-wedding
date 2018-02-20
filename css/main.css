@@ -54,6 +54,10 @@ a:hover {
   background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/pio-isa-in-a-box.jpg");
   background-position: 50% 60%;
 }
+#header-travel {
+  background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/annisquam-lighthouse.jpg");
+  background-position: 50% 60%;
+}
 #header-activities {
   background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/everglades.jpg");
   background-position: 50% 60%;
@@ -98,6 +102,10 @@ ul {
 ul.bullet-link-list li::before {
   content: "•\00a0";
   color: #50B4BD;
+}
+#map {
+  background-size: cover;
+  height: 300px;
 }
 #activities .card-title {
   letter-spacing: .03rem;

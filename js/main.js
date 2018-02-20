@@ -5,9 +5,13 @@
 function initMap() {
         let harborRoom = {lat: 42.611713, lng: -70.650385};
         let map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 12,
+          zoom: 14,
           center: harborRoom
         });
+  
+        let marker = new google.maps.Marker({
+          position: {lat: 42.611713, lng: -70.650385},
+          map: map,
+          title: 'The Harbor Room'
+        });
       }
-
-
