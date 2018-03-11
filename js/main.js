@@ -4,9 +4,8 @@
 
 var map;
 function initMap() {
-        let harborRoom = {lat: 42.611713, lng: -70.650385};
         map = new google.maps.Map(document.getElementById('map'), {
-          center: harborRoom,
+          center: {lat: 42.611713, lng: -70.650385},
           zoom: 14
         });
   
