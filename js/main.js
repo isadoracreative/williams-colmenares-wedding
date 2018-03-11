@@ -2,11 +2,12 @@
 /* Website visual design and front-end development by Isadora Williams, copyright 2018 */
 /* isadoracreative.com */
 
+var map;
 function initMap() {
         let harborRoom = {lat: 42.611713, lng: -70.650385};
-        let map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 14,
-          center: harborRoom
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: harborRoom,
+          zoom: 14
         });
   
         let marker = new google.maps.Marker({
